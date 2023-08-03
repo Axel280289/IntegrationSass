@@ -1,0 +1,8 @@
+$color1: rgb(255, 248, 248); 
+
+
+@mixin CenterFlex{
+    display: flex;
+    align-items: center;
+
+}

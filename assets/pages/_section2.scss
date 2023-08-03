@@ -1,0 +1,54 @@
+.sectionTwo{
+    display: flex;
+    text-align: center;
+
+    @media screen and (max-width: 750px){
+        flex-direction: column;
+      }
+  
+
+    img{
+        width: 65%;
+    }
+}
+
+.divLeft{
+    border-top: solid 1px rgb(185, 185, 185);
+    border-right:solid 1px rgb(185, 185, 185);
+    @media screen and (max-width: 600px){
+        font-size: 0.7rem;
+      }
+}
+
+.divLeft, .divRight{
+    p{
+       padding: 35px 0 15px ;
+       width: 80%;
+       margin: 0 auto;
+    }
+
+    h3{
+        font-size: 1.5rem;
+        width: 45%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        @media screen and (max-width: 440px){
+            font-size: 1.2rem;
+          }
+
+    }
+
+    button{
+        margin: 20px 0 50px 0;
+    }
+}
+
+.divRight{
+    border-top: solid 1px rgb(185, 185, 185);
+    
+    h3{
+        width: 50%;
+    }
+    
+  }

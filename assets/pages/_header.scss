@@ -1,0 +1,48 @@
+
+header{
+   @include CenterFlex;
+   height: 92vh;
+
+   div {
+    width: 100%;
+    @include CenterFlex;
+    flex-direction: column;
+    }
+    
+    h1{
+    font-size: 6rem;
+    font-weight: bold;
+    color: $color1;
+    margin: 25px;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'inter', serif;
+    @media screen and (max-width: 1264px){
+        font-size: 4rem;
+      width: 80%;
+    @media screen and (max-width: 845px){
+        font-size: 3rem;
+        width: 80%;
+      }
+      @media screen and (max-width: 610px){
+        font-size: 2rem;
+        width: 65%;
+      }
+      @media screen and (max-width: 430px){
+        font-size: 1.6rem;
+        width: 75%;
+      }
+    
+}
+}
+}   
+
+header div p {
+    color: $color1;
+    font-size: 1rem;
+    margin: 25px auto 70px;
+    text-align: center;
+    color: rgb(247, 247, 247);
+    
+}
